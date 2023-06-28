@@ -1,10 +1,10 @@
 
 
 
-docker build -t deepcadrt --platform=linux/amd64 container/
+docker build -t unigebsp/deepcad --platform=linux/amd64 container/
 
 
-docker run --rm -it deepcadrt
+docker run --rm -it unigebsp/deepcad
 
 
 
